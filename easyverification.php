@@ -4,7 +4,7 @@ Plugin Name: Easy Verification
 Plugin URI: http://www.allancollins.net/80/easy-verification/
 Description: This plugin will allow you to easily verify your site for Google and Yahoo!.
 Author: Allan Collins
-Version: 1.0
+Version: 1.1
 Author URI: http://www.allancollins.net
 */
 /*
@@ -54,21 +54,21 @@ add_action('wp_head', 'easyv_add_meta');
 
 
 function easyv_add_meta() {
-if (is_home()) {
+
 echo "<!-- Easy Verification -->";
 echo "<!-- End Easy Verification -->";
-}
+
 
 }
 
 function callbacked($buffer)
 {
-if (is_home()) {
+
 $google='<meta name="verify-v1" content="'. get_option('easyv_google') . '" />';
 $yahoo='<meta name="y_key" content="'. get_option('easyv_yahoo') . '" />';
 
 $buffer=str_replace("<!-- Easy Verification -->","<!-- Easy Verification -->" . $google . $yahoo,$buffer);
-}
+
   return ($buffer);
 }
 
