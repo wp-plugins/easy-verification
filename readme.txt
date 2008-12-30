@@ -1,9 +1,9 @@
 === Easy Verification ===
 Contributors: Allan Collins
-Donate link:https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=acollins%40paonia%2ecom&item_name=My%20Local%20SWeather%20Plugin&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
+Donate link:https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=acollins%40paonia%2ecom&item_name=Wordpress%20Plugin&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
 Tags: Google, SEO, Yahoo, Webmaster Tools, Meta
 Requires at least: 2.5
-Tested up to: 2.6.1
+Tested up to: 2.7
 Stable tag: 1.1
 
 This plugin will allow you to easily verify your WordPress website with Google Webmaster Tools and Yahoo! SiteExplorer.
