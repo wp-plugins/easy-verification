@@ -4,7 +4,7 @@ Donate link:https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=acolli
 Tags: Google, SEO, Yahoo, Webmaster Tools, Meta
 Requires at least: 2.5
 Tested up to: 2.8.4
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 
 This plugin will allow you to easily verify your WordPress website with Google Webmaster Tools and Yahoo! SiteExplorer.
 
@@ -32,3 +32,6 @@ Now you can easily verify your website for Google and Yahoo!.
 
 = 1.2 =
 * Added new Google verification meta tag support.
+
+= 1.2.1 =
+* Removed Output Buffering.
