@@ -2,11 +2,11 @@
 Contributors: Allan Collins
 Donate link:https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=acollins%40paonia%2ecom&item_name=Wordpress%20Plugin&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
 Tags: Google, SEO, Yahoo, Webmaster Tools, Meta
-Requires at least: 2.5
-Tested up to: 2.8.4
-Stable tag: 1.2.2
+Requires at least: 2.7
+Tested up to: 3.0.1
+Stable tag: 1.3
 
-This plugin will allow you to easily verify your WordPress website with Google Webmaster Tools and Yahoo! SiteExplorer.
+This plugin will allow you to easily verify your WordPress website with Google Webmaster Tools, Bing Webmaster Tools and Yahoo! SiteExplorer.
 
 == Description ==
 
@@ -35,3 +35,6 @@ Now you can easily verify your website for Google and Yahoo!.
 
 = 1.2.1 =
 * Removed Output Buffering.
+
+= 1.31 =
+* Added Bing Webmster Tools Support.
